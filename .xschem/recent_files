@@ -1,0 +1,38 @@
+set recentfile {/home/om/test_first_project/xschem-src/WR_DRV.sch /home/om/test_first_project/xschem-src/sram.sch /home/om/test_first_project/xschem-src/SenseAmp.sch /home/om/test_first_project/xschem-src/Precharge.sch /home/om/test_first_project/xschem-src/prechargetest.sch /home/om/test_first_project/xschem-src/Dff.sch /home/om/test_first_project/xschem-src/SenseAmpsch /home/om/test_first_project/xschem-src/tri-state-buffer.sch /home/om/test_first_project/xschem-src/and_gate.sch /home/om/test_first_project/xschem-src/Inverter.sch}
+array set ::c_toolbar::c_t_1740842030 {14,file {} 9,text {} 12,text {} 8,file {} 11,file {} 6,text {} 24,text vsource time 1731066641 5,file {} 23,file /home/om/sky130/sky130B/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym top 16 21,text lab_pin hash 1740842030 3,text {} 20,file /usr/local/share/xschem/xschem_library/devices/gnd.sym 19,file /usr/local/share/xschem/xschem_library/devices/code_shown.sym 2,file {} 17,text pfet3_01v8 0,text {} 16,file /home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym 10,command {} 11,command {} 12,command {} 14,text {} 13,command {} 13,file {} 14,command {} 15,command {} 8,text {} 16,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym}
+      xschem place_symbol {/home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym} } 17,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet3_01v8.sym}
+      xschem place_symbol {/home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet3_01v8.sym} } 0,command {} 7,file {} 11,text {} 18,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym}
+      xschem place_symbol {/home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} } 1,command {} 20,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/usr/local/share/xschem/xschem_library/devices/gnd.sym}
+      xschem place_symbol {/usr/local/share/xschem/xschem_library/devices/gnd.sym} } 19,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/usr/local/share/xschem/xschem_library/devices/code_shown.sym}
+      xschem place_symbol {/usr/local/share/xschem/xschem_library/devices/code_shown.sym} } 2,command {} 10,file {} 23,text nfet_01v8 21,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/usr/local/share/xschem/xschem_library/devices/lab_pin.sym}
+      xschem place_symbol {/usr/local/share/xschem/xschem_library/devices/lab_pin.sym} } 3,command {} 5,text {} 22,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/home/om/sky130/sky130B/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym}
+      xschem place_symbol {/home/om/sky130/sky130B/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym} } 4,command {} 5,command {} 4,file {} 23,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/home/om/sky130/sky130B/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym}
+      xschem place_symbol {/home/om/sky130/sky130B/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} } 22,file /home/om/sky130/sky130B/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym 6,command {} 24,command {
+      set file_dialog_retval {}
+      xschem abort_operation
+      file_dialog_display_preview {/usr/local/share/xschem/xschem_library/devices/vsource.sym}
+      xschem place_symbol {/usr/local/share/xschem/xschem_library/devices/vsource.sym} } 7,command {} 8,command {} 2,text {} 19,text code_shown 20,text gnd 9,command {} 1,file {} 18,file /home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym 16,text pfet_01v8 15,file {} 13,text {} 9,file {} n 25 12,file {} 7,text {} 10,text {} 6,file {} 24,file /usr/local/share/xschem/xschem_library/devices/vsource.sym 4,text {} 22,text pfet_01v8 3,file {} w .load.l.recent 21,file /usr/local/share/xschem/xschem_library/devices/lab_pin.sym 1,text {} 18,text nfet_01v8 0,file {} 17,file /home/om/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet3_01v8.sym 15,text {}}

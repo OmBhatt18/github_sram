@@ -1,0 +1,20 @@
+** sch_path: /home/om/test_first_project/xschem-src/Precharge.sch
+**.subckt Precharge
+XM7 blbar pc vdd net1 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM1 bl pc vdd net2 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+vdd vdd GND 1.8
+Vwen pc GND pulse(0 1.8 0 60ps 60ps 2ns 4ns)
+**** begin user architecture code
+
+ .lib /home/om/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.tran 0.1p  10n
+.save all
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
